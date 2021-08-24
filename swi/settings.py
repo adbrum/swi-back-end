@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-^9f#@94zm4hy5em(al0=5*3nobr^pov1cz#a*n9q2svo3zyp#s"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*', 'https://swi-front-end-api.herokuapp.com/']
 CORS_ORIGIN_ALLOW_ALL = True
