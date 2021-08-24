@@ -11,4 +11,4 @@ class TokenObtainPairSerializer(JwtTokenObtainPairSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = get_user_model()
-        fields = ('id, name, email', 'password')
+        fields = ('email', 'password')
